@@ -29,10 +29,21 @@
 <section class="px-8">
 
     <main class="py-4 container mx-auto">
-        @yield('content')
+        <div class="container">
+            <div class="lg:flex">
+                <div class="lg:w-1/6">
+                    @include('_side_bar_links')
+                </div>
+                <div class="lg:flex-1 lg:mx-10 lg:justify-between " style="max-width: 700px">
+                    @yield('content')
+                </div>
+                <div class="lg:w-1/8 rounded-lg p-4">
+                    @include('_friend_list')
+                </div>
+            </div>
+        </div>
     </main>
 </section>
-
     </div>
 </body>
 </html>

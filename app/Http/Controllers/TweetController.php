@@ -10,7 +10,7 @@ class TweetController extends Controller
     public function index()
     {
         $tweets = auth()->user()->timeline();;
-        return view('home', ['tweets'=> $tweets]);
+        return view('tweets.index', ['tweets'=> $tweets]);
     }
 
     public function store(){
@@ -21,6 +21,6 @@ class TweetController extends Controller
             'body'=>request('body')
         ]);
 
-        return redirect('/home');
+        return redirect('/tweets');
     }
 }
