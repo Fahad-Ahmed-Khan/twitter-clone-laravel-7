@@ -7,11 +7,18 @@ use Illuminate\Http\Request;
 
 class TweetController extends Controller
 {
+    public function index()
+    {
+        $tweets = auth()->user()->timeline();;
+        return view('home', ['tweets'=> $tweets]);
+    }
+
     public function store(){
-        $body = \request()->validate(['body'=>'required']);
+        request()->validate(['body'=>'required']);
+
         Tweet::create([
             'user_id'=>auth()->user()->id,
-            'body'=>\request('body')
+            'body'=>request('body')
         ]);
 
         return redirect('/home');
