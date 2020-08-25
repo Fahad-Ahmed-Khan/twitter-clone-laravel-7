@@ -3,16 +3,56 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="78838a39-1a3d-46b7-8e82-8a5e1f7d0b9b" name="Default Changelist" comment="" />
+    <list default="true" id="78838a39-1a3d-46b7-8e82-8a5e1f7d0b9b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Followable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/components/_follow_unfollow.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/_friend_list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_friend_list.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/_publish_tweet_panel.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_publish_tweet_panel.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/_side_bar_links.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_side_bar_links.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/_tweet.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_tweet.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/confirm.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/confirm.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/profile/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profile/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/tweets/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tweets/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -121,6 +161,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1gX6et8mD4Vvuun6Busl3scDKT5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -133,8 +176,15 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/components" />
       <recent name="$PROJECT_DIR$/resources/views/tweets" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="php artisan make:controller FollowController" />
+      <command value="php artisan serve" />
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -150,38 +200,67 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598248689087</updated>
-      <workItem from="1598248690177" duration="24385000" />
+      <workItem from="1598248690177" duration="24585000" />
+      <workItem from="1598328148382" duration="10405000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1261" height="175" key="GridCell.Tab.0.bottom" timestamp="1598248948092">
-      <screen x="0" y="768" width="1366" height="768" />
-    </state>
-    <state width="1261" height="175" key="GridCell.Tab.0.bottom/0.768.1366.768/59.0.1307.768@0.768.1366.768" timestamp="1598248948092" />
-    <state width="1261" height="175" key="GridCell.Tab.0.center" timestamp="1598248948092">
-      <screen x="0" y="768" width="1366" height="768" />
-    </state>
-    <state width="1261" height="175" key="GridCell.Tab.0.center/0.768.1366.768/59.0.1307.768@0.768.1366.768" timestamp="1598248948092" />
-    <state width="1261" height="175" key="GridCell.Tab.0.left" timestamp="1598248948092">
-      <screen x="0" y="768" width="1366" height="768" />
-    </state>
-    <state width="1261" height="175" key="GridCell.Tab.0.left/0.768.1366.768/59.0.1307.768@0.768.1366.768" timestamp="1598248948092" />
-    <state width="1261" height="175" key="GridCell.Tab.0.right" timestamp="1598248948092">
-      <screen x="0" y="768" width="1366" height="768" />
-    </state>
-    <state width="1261" height="175" key="GridCell.Tab.0.right/0.768.1366.768/59.0.1307.768@0.768.1366.768" timestamp="1598248948092" />
-    <state x="403" y="135" width="618" height="522" key="find.popup" timestamp="1598253907513">
-      <screen x="59" y="27" width="1307" height="741" />
-    </state>
-    <state x="403" y="135" width="618" height="522" key="find.popup/0.768.1366.768/59.27.1307.741@59.27.1307.741" timestamp="1598253907513" />
-    <state x="375" y="64" width="672" height="703" key="search.everywhere.popup" timestamp="1598277444330">
+    <state x="465" y="149" width="426" height="467" key="#com.jetbrains.php.refactoring.pullPush.pullUp.PhpPullUpDialog#1" timestamp="1598335067187">
       <screen x="59" y="0" width="1307" height="768" />
     </state>
-    <state x="375" y="64" width="672" height="703" key="search.everywhere.popup/0.768.1366.768/59.0.1307.768@59.0.1307.768" timestamp="1598277444330" />
+    <state x="465" y="149" width="426" height="467" key="#com.jetbrains.php.refactoring.pullPush.pullUp.PhpPullUpDialog#1/0.768.1366.768/59.0.1307.768@59.0.1307.768" timestamp="1598335067187" />
+    <state width="1320" height="183" key="GridCell.Tab.0.bottom" timestamp="1598336552840">
+      <screen x="59" y="0" width="1307" height="768" />
+    </state>
+    <state width="1261" height="175" key="GridCell.Tab.0.bottom/0.768.1366.768/59.0.1307.768@0.768.1366.768" timestamp="1598248948092" />
+    <state width="1320" height="183" key="GridCell.Tab.0.bottom/0.768.1366.768/59.0.1307.768@59.0.1307.768" timestamp="1598336552840" />
+    <state width="1320" height="183" key="GridCell.Tab.0.center" timestamp="1598336552840">
+      <screen x="59" y="0" width="1307" height="768" />
+    </state>
+    <state width="1261" height="175" key="GridCell.Tab.0.center/0.768.1366.768/59.0.1307.768@0.768.1366.768" timestamp="1598248948092" />
+    <state width="1320" height="183" key="GridCell.Tab.0.center/0.768.1366.768/59.0.1307.768@59.0.1307.768" timestamp="1598336552840" />
+    <state width="1320" height="183" key="GridCell.Tab.0.left" timestamp="1598336552839">
+      <screen x="59" y="0" width="1307" height="768" />
+    </state>
+    <state width="1261" height="175" key="GridCell.Tab.0.left/0.768.1366.768/59.0.1307.768@0.768.1366.768" timestamp="1598248948092" />
+    <state width="1320" height="183" key="GridCell.Tab.0.left/0.768.1366.768/59.0.1307.768@59.0.1307.768" timestamp="1598336552839" />
+    <state width="1320" height="183" key="GridCell.Tab.0.right" timestamp="1598336552840">
+      <screen x="59" y="0" width="1307" height="768" />
+    </state>
+    <state width="1261" height="175" key="GridCell.Tab.0.right/0.768.1366.768/59.0.1307.768@0.768.1366.768" timestamp="1598248948092" />
+    <state width="1320" height="183" key="GridCell.Tab.0.right/0.768.1366.768/59.0.1307.768@59.0.1307.768" timestamp="1598336552840" />
+    <state x="457" y="102" width="441" height="561" key="NewPhpClassDialog" timestamp="1598334845075">
+      <screen x="59" y="0" width="1307" height="768" />
+    </state>
+    <state x="457" y="102" width="441" height="561" key="NewPhpClassDialog/0.768.1366.768/59.0.1307.768@59.0.1307.768" timestamp="1598334845075" />
+    <state x="403" y="112" width="618" height="542" key="find.popup" timestamp="1598330384903">
+      <screen x="59" y="0" width="1307" height="768" />
+    </state>
+    <state x="403" y="112" width="618" height="542" key="find.popup/0.768.1366.768/59.0.1307.768@59.0.1307.768" timestamp="1598330384903" />
+    <state x="403" y="135" width="618" height="522" key="find.popup/0.768.1366.768/59.27.1307.741@59.27.1307.741" timestamp="1598253907513" />
+    <state x="347" y="168" width="672" height="677" key="run.anything.popup" timestamp="1598336547289">
+      <screen x="59" y="0" width="1307" height="768" />
+    </state>
+    <state x="347" y="168" width="672" height="677" key="run.anything.popup/0.768.1366.768/59.0.1307.768@59.0.1307.768" timestamp="1598336547289" />
+    <state x="375" y="64" width="672" height="703" key="search.everywhere.popup" timestamp="1598337263903">
+      <screen x="59" y="0" width="1307" height="768" />
+    </state>
+    <state x="375" y="64" width="672" height="703" key="search.everywhere.popup/0.768.1366.768/59.0.1307.768@59.0.1307.768" timestamp="1598337263903" />
     <state x="375" y="89" width="672" height="678" key="search.everywhere.popup/0.768.1366.768/59.27.1307.741@59.27.1307.741" timestamp="1598251802070" />
   </component>
 </project>

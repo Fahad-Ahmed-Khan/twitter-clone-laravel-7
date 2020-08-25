@@ -3,6 +3,7 @@
         <a href="{{route('profile',$tweet->user)}}">
         <img src="https://i.pravatar.cc/50?u={{$tweet->user->email}}"
              class="rounded-full"
+             width="45px"
              alt="avatar">
         </a>
     </div>
