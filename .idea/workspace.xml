@@ -23,23 +23,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78838a39-1a3d-46b7-8e82-8a5e1f7d0b9b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Followable.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/_follow_unfollow.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/_explore_page.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/_friend_list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_friend_list.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/_publish_tweet_panel.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_publish_tweet_panel.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/_side_bar_links.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_side_bar_links.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/_tweet.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_tweet.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/confirm.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/confirm.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/_follow_unfollow.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/_follow_unfollow.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/profile/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profile/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/tweets/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tweets/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -169,6 +164,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -176,6 +172,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/storage/app/public" />
       <recent name="$PROJECT_DIR$/resources/views/components" />
       <recent name="$PROJECT_DIR$/resources/views/tweets" />
     </key>
@@ -184,6 +181,12 @@
     <option name="myCommands">
       <command value="php artisan make:controller FollowController" />
       <command value="php artisan serve" />
+      <command value="php artisan migrate" />
+    </option>
+  </component>
+  <component name="RunAnythingContextRecentDirectoryCache">
+    <option name="paths">
+      <recentPaths value="$PROJECT_DIR$" />
     </option>
   </component>
   <component name="RunManager">
@@ -201,7 +204,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598248689087</updated>
       <workItem from="1598248690177" duration="24585000" />
-      <workItem from="1598328148382" duration="10405000" />
+      <workItem from="1598328148382" duration="25004000" />
     </task>
     <servers />
   </component>
@@ -224,26 +227,34 @@
       <screen x="59" y="0" width="1307" height="768" />
     </state>
     <state x="465" y="149" width="426" height="467" key="#com.jetbrains.php.refactoring.pullPush.pullUp.PhpPullUpDialog#1/0.768.1366.768/59.0.1307.768@59.0.1307.768" timestamp="1598335067187" />
-    <state width="1320" height="183" key="GridCell.Tab.0.bottom" timestamp="1598336552840">
-      <screen x="59" y="0" width="1307" height="768" />
+    <state x="495" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1598341869177">
+      <screen x="59" y="27" width="1307" height="741" />
+    </state>
+    <state x="495" y="154" width="424" height="484" key="FileChooserDialogImpl/0.768.1366.768/59.27.1307.741@59.27.1307.741" timestamp="1598341869177" />
+    <state width="1261" height="174" key="GridCell.Tab.0.bottom" timestamp="1598341918386">
+      <screen x="59" y="27" width="1307" height="741" />
     </state>
     <state width="1261" height="175" key="GridCell.Tab.0.bottom/0.768.1366.768/59.0.1307.768@0.768.1366.768" timestamp="1598248948092" />
     <state width="1320" height="183" key="GridCell.Tab.0.bottom/0.768.1366.768/59.0.1307.768@59.0.1307.768" timestamp="1598336552840" />
-    <state width="1320" height="183" key="GridCell.Tab.0.center" timestamp="1598336552840">
-      <screen x="59" y="0" width="1307" height="768" />
+    <state width="1261" height="174" key="GridCell.Tab.0.bottom/0.768.1366.768/59.27.1307.741@59.27.1307.741" timestamp="1598341918386" />
+    <state width="1261" height="174" key="GridCell.Tab.0.center" timestamp="1598341918386">
+      <screen x="59" y="27" width="1307" height="741" />
     </state>
     <state width="1261" height="175" key="GridCell.Tab.0.center/0.768.1366.768/59.0.1307.768@0.768.1366.768" timestamp="1598248948092" />
     <state width="1320" height="183" key="GridCell.Tab.0.center/0.768.1366.768/59.0.1307.768@59.0.1307.768" timestamp="1598336552840" />
-    <state width="1320" height="183" key="GridCell.Tab.0.left" timestamp="1598336552839">
-      <screen x="59" y="0" width="1307" height="768" />
+    <state width="1261" height="174" key="GridCell.Tab.0.center/0.768.1366.768/59.27.1307.741@59.27.1307.741" timestamp="1598341918386" />
+    <state width="1261" height="174" key="GridCell.Tab.0.left" timestamp="1598341918386">
+      <screen x="59" y="27" width="1307" height="741" />
     </state>
     <state width="1261" height="175" key="GridCell.Tab.0.left/0.768.1366.768/59.0.1307.768@0.768.1366.768" timestamp="1598248948092" />
     <state width="1320" height="183" key="GridCell.Tab.0.left/0.768.1366.768/59.0.1307.768@59.0.1307.768" timestamp="1598336552839" />
-    <state width="1320" height="183" key="GridCell.Tab.0.right" timestamp="1598336552840">
-      <screen x="59" y="0" width="1307" height="768" />
+    <state width="1261" height="174" key="GridCell.Tab.0.left/0.768.1366.768/59.27.1307.741@59.27.1307.741" timestamp="1598341918386" />
+    <state width="1261" height="174" key="GridCell.Tab.0.right" timestamp="1598341918386">
+      <screen x="59" y="27" width="1307" height="741" />
     </state>
     <state width="1261" height="175" key="GridCell.Tab.0.right/0.768.1366.768/59.0.1307.768@0.768.1366.768" timestamp="1598248948092" />
     <state width="1320" height="183" key="GridCell.Tab.0.right/0.768.1366.768/59.0.1307.768@59.0.1307.768" timestamp="1598336552840" />
+    <state width="1261" height="174" key="GridCell.Tab.0.right/0.768.1366.768/59.27.1307.741@59.27.1307.741" timestamp="1598341918386" />
     <state x="457" y="102" width="441" height="561" key="NewPhpClassDialog" timestamp="1598334845075">
       <screen x="59" y="0" width="1307" height="768" />
     </state>
@@ -253,14 +264,15 @@
     </state>
     <state x="403" y="112" width="618" height="542" key="find.popup/0.768.1366.768/59.0.1307.768@59.0.1307.768" timestamp="1598330384903" />
     <state x="403" y="135" width="618" height="522" key="find.popup/0.768.1366.768/59.27.1307.741@59.27.1307.741" timestamp="1598253907513" />
-    <state x="347" y="168" width="672" height="677" key="run.anything.popup" timestamp="1598336547289">
-      <screen x="59" y="0" width="1307" height="768" />
+    <state x="347" y="189" width="672" height="654" key="run.anything.popup" timestamp="1598341914084">
+      <screen x="59" y="27" width="1307" height="741" />
     </state>
     <state x="347" y="168" width="672" height="677" key="run.anything.popup/0.768.1366.768/59.0.1307.768@59.0.1307.768" timestamp="1598336547289" />
-    <state x="375" y="64" width="672" height="703" key="search.everywhere.popup" timestamp="1598337263903">
+    <state x="347" y="189" width="672" height="654" key="run.anything.popup/0.768.1366.768/59.27.1307.741@59.27.1307.741" timestamp="1598341914084" />
+    <state x="375" y="64" width="672" height="703" key="search.everywhere.popup" timestamp="1598357340559">
       <screen x="59" y="0" width="1307" height="768" />
     </state>
-    <state x="375" y="64" width="672" height="703" key="search.everywhere.popup/0.768.1366.768/59.0.1307.768@59.0.1307.768" timestamp="1598337263903" />
-    <state x="375" y="89" width="672" height="678" key="search.everywhere.popup/0.768.1366.768/59.27.1307.741@59.27.1307.741" timestamp="1598251802070" />
+    <state x="375" y="64" width="672" height="703" key="search.everywhere.popup/0.768.1366.768/59.0.1307.768@59.0.1307.768" timestamp="1598357340559" />
+    <state x="375" y="89" width="672" height="678" key="search.everywhere.popup/0.768.1366.768/59.27.1307.741@59.27.1307.741" timestamp="1598343605659" />
   </component>
 </project>

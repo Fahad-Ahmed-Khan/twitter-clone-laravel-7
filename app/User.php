@@ -16,7 +16,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'name', 'email', 'password', 'username','avatar'
     ];
 
     /**
@@ -37,10 +37,6 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
-    public function getAvatarAttribute()
-    {
-        return "https://i.pravatar.cc/400?u=".$this->email;
-    }
 
     public function timeline()
     {
@@ -58,6 +54,6 @@ class User extends Authenticatable
 
     function getRouteKeyName()
     {
-        return "name";
+        return "username";
     }
 }

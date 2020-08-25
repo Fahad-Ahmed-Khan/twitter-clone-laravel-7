@@ -1,7 +1,7 @@
 <div class="flex p-4 mb-2 border-b border-gray-400">
     <div class="mr-4 flex-shrink-0">
         <a href="{{route('profile',$tweet->user)}}">
-        <img src="https://i.pravatar.cc/50?u={{$tweet->user->email}}"
+        <img src="{{$tweet->user->avatar}}"
              class="rounded-full"
              width="45px"
              alt="avatar">

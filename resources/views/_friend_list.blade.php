@@ -2,12 +2,12 @@
 <h3 class="font-bold text-xl mb-4">Following</h3>
 <ul>
     @if(auth()->user())
-    @foreach(auth()->user()->follows as $user)
+    @forelse(auth()->user()->follows as $user)
     <li class="mb-2">
         <div>
 
             <a href="{{route('profile',$user)}}" class="flex items-center text-sm">
-            <img src="https://i.pravatar.cc/40?u={{$user->email}}"
+            <img src="{{$user->avatar}}"
                  class="rounded-full mr-2"
                  width="40px"
                  alt="avatar">
@@ -15,8 +15,9 @@
             </a>
         </div>
     </li>
-    @endforeach
-
+        @empty
+        <p class="p-4">No friends yet</p>
+    @endforelse
     @endif
 </ul>
 </div>

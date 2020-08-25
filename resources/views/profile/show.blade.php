@@ -11,8 +11,7 @@
        <img src="{{$user->avatar}}"
             class="rounded-full mr-2 absolute bottom-0 transform -translate-x-1/2 translate-y-1/2"
             alt="avatar"
-            width="125px"
-            style="left:50%">
+            style="left:50%; width: 100px; height: 100px">
        </div>
        <div class="flex justify-between items-center mb-2">
            <div>
@@ -20,8 +19,10 @@
            <p class="text-sm">Joined {{$user->created_at->diffForHumans()}}</p>
        </div>
        <div class="flex items center">
+           @if(auth()->user()->is($user))
            <a href="" class="rounded-full border border-gray-300 shadow py-2 px-2 text-black text-xs mr-2">Edit Profile</a>
-           @include('components._follow_unfollow')
+           @endif
+               @include('components._follow_unfollow')
        </div>
        </div>
 
@@ -32,7 +33,9 @@
    </header>
 
     <hr>
-    @foreach($user->tweets as $tweet)
+    @forelse($user->tweets as $tweet)
         @include('_tweet')
-    @endforeach
+    @empty
+        <p class="p-4">No tweets yet.</p>
+    @endforelse
 @endsection
